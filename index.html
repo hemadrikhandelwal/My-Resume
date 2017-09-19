@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Resume</title>
+	<!--linking css file-->
+		<link rel="stylesheet" href="css/bootstrap.css" >
+		<link rel="stylesheet" href="css/bootstrap.min.css" >
+		<link rel="stylesheet" href="css/bootstrap-theme.css" >
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css" >
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		
+		
+	<meta name="description" content=" The Project">
+</head>
+<style>	
+ h5{
+ 	color:white;
+ 	font-weight: bolder;
+ }
+ h6{
+ 	color:white;
+ 	text-decoration-style: inherit;
+
+ }
+ .jumbotron{
+ 	margin-top:50px;
+ 	/*background-image: url("dum.jpg");*/
+ 	background-color: #d8b3ba!important;
+ 	
+}
+.work {
+    background: #000;
+}
+.work-left {
+    text-align: right;
+    padding: 3em 5em 0 0;
+}
+.work-right {
+    border-left: 1px solid #999;
+    padding: 2.5em 0 2em 6em;
+}
+.work-info h4 {
+    font-size: 1.3em;
+    /* background: darkcyan; */
+    /* border-top: 2px solid #000; */
+    display: inline-block;
+    padding: .4em 1.2em;
+    color: #0a0a0a;
+    position: relative;
+}
+.work-info h4:before {
+    width: 0;
+    height: 0;
+    position: absolute;
+	/*-- w3layouts --*/
+    content: '';
+    top: 9px;
+    right: -14px;
+    border-style: solid;
+    border-width: 10px 0 10px 17px;
+    border-color: transparent transparent transparent #ec1944;
+}
+.work-info h5 {
+    font-size: 1.3em;
+    color: #00bdbd;
+    margin-bottom: .5em;
+    /* border: 1px solid #F7E612; */
+    display: inline-block;
+    padding: 0 1.2em;
+}
+.work-info h5 span.glyphicon {
+    font-size: 0.9em;
+    color: #ffffff;
+    background: #ec1944;
+    padding: 1em;
+    -webkit-border-radius: 70%;
+    -moz-border-radius: 70%;
+    border-radius: 70%;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+}
+.work-right h5 span.glyphicon {
+    margin-right: 3.5em;
+    margin-left: -8em;
+}
+.work-left2 h5 span.glyphicon {
+    margin-left: 1em;
+    margin-right: -26.3em;
+    z-index: 9;
+}
+.work-right.work-right2 {
+    min-height: 210px;
+    float: right;
+}
+.work-right.work-right2 h4:before {
+    left: -14px;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	/*-- agileits --*/
+    transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+}
+.work-right.work-right2 h4 {
+    margin-top: 0.8em;
+}
+.work-info:hover h5 span.glyphicon {
+    color: #fff;
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+    transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+}
+.work-info p {
+    color: #777;
+    margin-top: -1.2em;
+    font-size: 15px;
+    line-height: 18px;
+}
+.experience {
+    padding-top: 0px!important;
+}
+/*--//work--*/
+/*Skills--*/
+.box-skill{
+	padding:10px;
+	height: 350px;
+}
+.card{
+	background-color: black;
+	border:3px white ;
+}
+/*--Contact--*/
+.cont{
+	background-image: url(mohit.jpg);
+
+}
+.cont h2{
+	color:black;
+	text-align: center;
+}
+.cont h2 i{
+	margin-right: 5px;
+}
+.box{
+
+	/*background-color:#F0DEDC;	    
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    background-color: rgba(240,240,240,0.4) !important;
+	height:350px;
+   
+    
+}
+.box:hover{
+	opacity:1.0;
+	filter: alpha(opacity=100);
+}
+.box img{
+	display: block;
+    margin: auto;
+    width:40%;
+
+}
+
+.box h4{
+	text-align: center;
+	text-shadow: 1px 1px;
+}
+
+ul.social-network{
+	list-style:none;
+	display:inline;
+	margin-left:0!important;
+	padding:0;
+	}
+ul.social-network li{display:inline;margin:0 5px;}.social-network a.icoGithub:hover{background-color:#222222;}.social-network a.icoFacebook:hover{background-color:#3B5998;}.social-network a.icoGoogle:hover{background-color:#BD3518;}.social-network a.icoQuora:hover{background-color:#B92b27;}.social-network a.icoLinkedin:hover{background-color:#007bb7;}.social-network a.icoBlog:hover{background-color:#3367D6;} .social-network a.icoGmail:hover{background-color:#ee4035;}.social-network a.icoRss:hover i,.social-network a.icoFacebook:hover i,.social-network a.icoTwitter:hover i,.social-network a.icoGoogle:hover i,.social-network a.icoVimeo:hover i,.social-network a.icoLinkedin:hover i{color:#fff;}a.socialIcon:hover,.socialHoverClass{color:#44BCDD;}.social-circle li a{display:inline-block;position:relative;margin:0 auto 0 auto;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;text-align:center;width:50px;height:50px;font-size:20px;}.social-circle li i{margin:0;line-height:50px;text-align:center;}.social-circle li a:hover i,.triggeredHover{-moz-transform:rotate(360deg);-webkit-transform:rotate(360deg);-ms--transform:rotate(360deg);transform:rotate(360deg);-webkit-transition:all 0.4s;-moz-transition:all 0.4s;-o-transition:all 0.4s;-ms-transition:all 0.4s;transition:all 0.4s;}.social-circle i{color:#fff;-webkit-transition:all 0.8s;-moz-transition:all 0.8s;-o-transition:all 0.8s;-ms-transition:all 0.8s;transition:all 0.8s;}.social-circle a{background-color:rgba(163,163,163,.6);}
+}
+
+
+</style>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+        <div class="container">
+                <div class="navbar-header">
+                        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse"> 
+                        		<span class="sr-only">Toggle navigation</span> 
+                        		<span class="icon-bar"></span> 
+                        		<span class="icon-bar"></span> 
+                        		<span class="icon-bar"></span> 
+                        	</button>
+                        		<h5> HEMADRI KHANDELWAL</h5>
+                	 			<h6>Full Stack Developer/Contant Writer</h6>
+                </div><!--navbar-header-->
+                <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="page-scroll scroll" href="#summary">Summary</a></li>
+                            <li><a class="page-scroll scrol" href="#experience">Experience</a></li>
+							<li><a class="page-scroll scroll" href="#skills">Skills</a></li>
+							<li><a class="page-scroll scroll" href="#contact">Contact</a></li>
+                        </ul>
+                </div>
+        </div><!--container-->
+</nav>
+<!-- Summary-->
+<div class="jumbotron">
+	<div id="summary" div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-md-3" >
+    			<div  class="thumbnail">
+      				<img src="h.jpg" alt="text of image" >
+    			</div>
+     		</div>
+     		<div class="col-lg-2">
+     		</div>
+     		<div class="col-lg-10">
+     			<blockquote>
+     			<p style="font-size: 14px;">I am pursuing B.E. (Computer Science) from Mahakal Institute of Technology, Ujjain. Looking to work with cutting edge technologies that increase my skill base. I have a keen interest and practical exposure in Content Writing and Web Development.</p>	
+     			</blockquote>
+     			<footer style="text-align: right;">-HEMADRI KHANDELWAL</footer>
+
+     		</div>
+		</div>
+	</div>	
+</div>
+<!-- end of Summary-->
+<!-- Experience-->
+<div class="container">
+	<div class="page header">
+		<h4 style="font-weight:bolder;font-size: 24px;" > <i class="fa fa-industry" aria-hidden="true" style="margin-right: 15px;"></i>EXPERIENCE</h4>
+		<br>
+	</div> 
+</div>
+<div id="experience" class="experience">
+		<div class="container">
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>Sept 2016 - Present  </h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon fa fa-briefcase"> </span>Content Writer</h5>
+					<b>Loyalty Square Private Limited</b>
+					<p>My role is to develop the content for olympiad preparation sudents.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>June 2017- July 2017 </h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5> <span class="glyphicon fa fa-briefcase"></span>Content Writer </h5>
+					<b>Grade Stack Private Limited </b>
+					<p>My role is to develop reasoning content for the banking aspirants.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>Oct 2016- Nov 2016</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon fa fa-briefcase"> </span>Social Media Marketing </h5>
+					<b>TheUnder18</b>
+					<p>My role is to handle various social media platform</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>July 2016- Present  </h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5><span class="glyphicon fa fa-briefcase" style="margin-right:-17.3em;"> </span>Content Writer</h5>
+					<b>Zailet</b>
+						<p>My role is to write article, blogs and poems </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//work-experience-->
+<!-- end of Experience-->
+<!--Skills-->
+<div id ="skills" div class="skills">
+<div class="container">
+	<h2><i class="fa fa-cubes"></i>Skills</h2>
+	<div class="row">
+		<div class="col-md-4" style="margin-left:auto;">
+			<div class="box box-skill" style="background-color:#273746  !important;">
+				<h3 style="text-align: center; color: white">Technical</h3>
+					<h6>HTML and CSS</h6>
+						<div class="progress" style="margin-right:2px; margin-left: 2px;">
+					  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+					    	90%
+					    <span class="sr-only">90% Complete</span>
+					  </div>
+					</div>
+					<h6>Bootstrap</h6>
+					<div class="progress" style="margin-right:5px;">
+					  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+					  	80%
+					    <span class="sr-only">80% Complete</span>
+					  </div>
+					</div>
+					<h6>AngularJS</h6>
+					<div class="progress" style="margin-right:5px;">
+					  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+					  	20%
+					    <span class="sr-only">20% Complete</span>
+					  </div>
+					</div>
+					<h6>C++</h6>
+					<div class="progress" style="margin-right:5px;">
+					  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+					  	80%
+					    <span class="sr-only">80% Complete</span>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="col-md-4" style="margin-left:auto">
+			<div class="box box-skill" style="background-color:#273746  !important">
+				<h3 style="text-align: center; color: white">Additional</h3>
+						<h6>Creative Writing</h6>
+						<div class="progress" style="margin-right:2px; margin-left: 2px;">
+					  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+					    	80%
+					    <span class="sr-only">80% Complete</span>
+					  </div>
+					</div>
+					<h6>IOT(INTERNET OF THING)</h6>
+					<div class="progress" style="margin-right:5px;">
+					  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+					  	50%
+					    <span class="sr-only">50% Complete</span>
+					  </div>
+					</div>
+					<h6>SEO (SEarch Engine Optimization)</h6>
+					<div class="progress" style="margin-right:5px;">
+					  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+					  	40%
+					    <span class="sr-only">40% Complete (warning)</span>
+					  </div>
+					</div>
+					<h6>Adobe Photoshop</h6>
+					<div class="progress" style="margin-right:5px;">
+					  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+					  	30%
+					    <span class="sr-only">30% Complete (danger)</span>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="col-md-4" style="margin:auto">
+			<div class="box box-skill" style="background-color:#273746  !important">
+				<h3 style="text-align: center; color: white">Language</h3>
+				
+					<h6>English</h6>
+					
+						<div class="progress" style="margin-right:2px; margin-left: 2px;">
+					  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%;">
+					    	100%
+					    <span class="sr-only">100% Complete</span>
+					  </div>
+					</div>
+					<h6>Hindi</h6>
+					<div class="progress" style="margin-right:5px;">
+					  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+					  	100%
+					    <span class="sr-only">100% Complete</span>
+					  </div>
+					</div>
+					<h6>Gujrati</h6>
+					<div class="progress" style="margin-right:5px;">
+					  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+					  	40%
+					    <span class="sr-only">40% Complete (warning)</span>
+					  </div>
+					</div>
+					<h6>Spanish</h6>
+					<div class="progress" style="margin-right:5px;">
+					  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+					  	10%
+					    <span class="sr-only">10% Complete (danger)</span>
+					  </div>
+					</div>
+			</div>
+		</div>
+
+	</div>
+</div>  
+</div>           
+<!--End of Skills-->
+<!--Contact-->
+<hr>
+<div id="contact" div class="cont">
+<h2><i class="fa fa-phone"></i>Contact</h2>
+	<div class="row">
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-6">
+			<div class="box">
+				<img src="web.jpg" class="img-circle" alt="text of image" style="border-radius:50%; height:150px;width:150px; margin-bottom:5px;">
+				<h4>HEMADRI KHANDELWAL</h4>
+				<div class="cosl-msd-12" style="margin:auto; text-align:center" >
+        			<ul class="social-network social-circle">
+			        	<li><a href="https://www.facebook.com/hemadri.khandelwal.503" class="icoFacebook" title="Facebook" target="blank"><i class="fa fa-facebook"></i></a></li>
+			            <li><a href="https://www.linkedin.com/in/hemadri-khandelwal-9b6286120/" class="icoLinkedin" title="Linkedin" target="blank"><i class="fa fa-linkedin"></i></a></li>
+			            <li><a href="https://www.quora.com/profile/Hemadri-Khandelwal" class="icoQuora" title="Quora" target="blank"><i class="fa fa-quora"></i></a></li>
+			            <li><a href="https://github.com/hemadrikhandelwal" class="icoGithub" title="Github" target="blank"><i class="fa fa-github"></i></a></li>
+			            <li><a href="hemadrikhandelwal@gail.com" class="icoGmail" title="Gmail" target="blank"><i class="fa fa-envelope"></i></a></li>
+			            <li><a href="https://zailet.com/people.php?u_name=zailet_hemadri" title="Zailet" class="icoBlog" target="blank"><i class="fa fa-pencil"></i></a></li>
+			            <li><a href="https://plus.google.com/u/0/100207403499411945988" class="icoGoogle" title="Google +" target="blank"><i class="fa fa-google-plus"></i></a></li>
+     			   </ul>				
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+		</div>	
+	</div>	
+</div>
+<!--End of Contact-->
+<!--linking of jQuery -->
+	<script src="js/jquery.js"</script>
+	<!--linking javascript-->
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/npm.js"</script>
+
+</body>
+</html>
+
+<!--
+style: position:absolute and width:100%
+
+#ffe6e6
+ #ffb3b3
+ #D5F5E3
+ : #d8b3ba   !important;
+FDF2E9;
+ 
+ -->
